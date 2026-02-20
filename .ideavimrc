@@ -1,0 +1,22 @@
+set nu rnu hlsearch incsearch
+" set shortmess-=S
+" set path+=**
+" set wildmenu
+" set wildmode=list:longest,full
+" set wildignore+=*/node_modules/*,*/.git/*,*/dist/*,*/.next/*,*/.turbo/*,*/target/*,*/coverage/*,*.DS_Store
+set idearefactormode=keep
+set ideajoin NERDTree
+let g:NERDTreeMapActivateNode='l'
+let g:NERDTreeMapJumpParent='h'
+nnoremap n nzz
+nnoremap N Nzz
+nnoremap gd gdzz
+nnoremap <C-d> <C-d>zz
+nnoremap <C-u> <C-u>zz
+inoremap <CR> <CR><C-o>zH<C-o>zH
+let mapleader = " "
+nnoremap <leader>b :action ToggleLineBreakpoint<CR>
+nnoremap <leader>d :action Debug<CR>
+nnoremap <Leader>D :action ChooseDebugConfiguration<CR>
+nnoremap <Leader>r :action RenameElement<CR>
+nnoremap gr :action RenameElement<CR>
