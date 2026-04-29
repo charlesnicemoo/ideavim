@@ -15,8 +15,10 @@ nnoremap <C-d> <C-d>zz
 nnoremap <C-u> <C-u>zz
 inoremap <CR> <CR><C-o>zH<C-o>zH
 let mapleader = " "
+nnoremap <Leader>t :action ActivateTerminalToolWindow<CR>
 nnoremap <leader>b :action ToggleLineBreakpoint<CR>
 nnoremap <leader>d :action Debug<CR>
 nnoremap <Leader>D :action ChooseDebugConfiguration<CR>
 nnoremap <Leader>r :action RenameElement<CR>
-nnoremap gr :action RenameElement<CR>
+nnoremap grn :action RenameElement<CR>
+nnoremap grr :action GotoImplementation<CR>
