@@ -22,4 +22,4 @@ nnoremap <Leader>D :action ChooseDebugConfiguration<CR>
 nnoremap <Leader>r :action RenameElement<CR>
 nnoremap grn :action RenameElement<CR>
 nnoremap gri :action GotoImplementation<CR>
-nnoremap grr :action FindUsage<CR>
+nnoremap grr :action FindUsages<CR>
